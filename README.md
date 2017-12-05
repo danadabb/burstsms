@@ -3,7 +3,7 @@
 ## Requirements
 Tested with current version (v8.9.1) of Node
 
-##Setup and Run:
+## Setup and Run
 
 1. Download or clone this repo
 2. In the root directory, run the command 'npm install'
