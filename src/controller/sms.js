@@ -33,8 +33,8 @@ module.exports.sendMessage = (number,msg) => {
 		var options = {
 			uri: ' https://api.transmitsms.com/send-sms.json',
 			auth:{
-				user: process.env.API_KEY,
-				password: process.env.API_SECRET
+				user: process.env.BURSTSMS_KEY,
+				password: process.env.BURSTSMS_SECRET
 			},
 			qs: {
 				message: message,
